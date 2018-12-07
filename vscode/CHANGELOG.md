@@ -1,4 +1,4 @@
-## Since 6.0.0 (20 Nov 2018):
+## Since 6.0.0 (7 Dec 2018):
 
   - Major refactoring to unify the codebases of IntelliJ & Vscode plugins
   - Now suggestions will use native vscode dropdown menu when user needs to select a single choice among many options
