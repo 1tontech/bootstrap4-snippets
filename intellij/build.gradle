@@ -1,0 +1,62 @@
+buildscript {
+    repositories {
+        maven {
+            url "https://oss.sonatype.org/content/repositories/snapshots/"
+        }
+        maven {
+            url 'http://dl.bintray.com/jetbrains/intellij-plugin-service'
+        }
+        mavenCentral()
+        jcenter()
+    }
+    dependencies {
+        classpath "org.jetbrains.intellij.plugins:gradle-intellij-plugin:0.2.0-SNAPSHOT"
+    }
+}
+
+apply plugin: 'org.jetbrains.intellij'
+
+// Will be replaced by build before publish. Leave it as is
+version '6.0.0'
+
+apply plugin: 'groovy'
+apply plugin: 'java'
+apply plugin: 'org.jetbrains.intellij'
+
+sourceCompatibility = 1.8
+
+sourceSets {
+    util
+}
+
+repositories {
+    mavenCentral()
+    jcenter()
+}
+
+intellij {
+    version 'IC-2017.1'
+    publishPlugin {
+        username System.getProperty('ij_plugin_portal_login')
+        password System.getProperty('ij_plugin_portal_password')
+        channels 'eap', 'nightly', 'default'
+    }
+    updateSinceUntilBuild false
+}
+
+dependencies {
+    utilCompile project(':common')
+    utilCompile 'org.codehaus.groovy:groovy-all:2.3.11'
+    utilCompile group: 'org.apache.commons', name: 'commons-lang3', version: '3.5'
+    utilCompile group: 'commons-io', name: 'commons-io', version: '2.5'
+    utilCompile group: 'com.fasterxml.jackson.dataformat', name: 'jackson-dataformat-xml', version: '2.8.4'
+    utilCompile group: 'com.fasterxml.jackson.core', name: 'jackson-databind', version: '2.8.4'
+    utilCompile group: 'org.springframework', name: 'spring-core', version: '4.3.4.RELEASE'
+    utilCompile group: 'com.vladsch.flexmark', name: 'flexmark', version: '0.28.12'
+}
+
+task regenerate(type: JavaExec) {
+    description 'Regenerates plugin'
+    main = 'in.oneton.snippet.util.intellij.RegeneratePlugin'
+    classpath = sourceSets.util.runtimeClasspath
+}

@@ -1,0 +1,108 @@
+{
+  "name": "bootstrap4-vscode",
+  "displayName": "Bootstrap 4, Font awesome 4, Font Awesome 5 Free & Pro snippets",
+  "description": "Bootstrap 4 snippets based on documentation + Font awesome 4 + Font Awesome 5 Free & Pro snippets",
+  "icon": "bootstrap_128px.png",
+  "version": "@@@VERSION@@@",
+  "publisher": "thekalinga",
+  "license": "See License section in README.md",
+  "homepage": "https://github.com/1tontech/bootstrap4-snippets/blob/master/README.md",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/1tontech/bootstrap4-snippets.git"
+  },
+  "engines": {
+    "vscode": "^0.10.1"
+  },
+  "galleryBanner": {
+    "color": "#E6E0EA",
+    "theme": "light"
+  },
+  "categories": [
+    "Snippets"
+  ],
+  "contributes": {
+    "snippets": [
+      {
+        "language": "blade",
+        "path": "./snippets.json"
+      },
+      {
+        "language": "ejs",
+        "path": "./snippets.json"
+      },
+      {
+        "language": "html",
+        "path": "./snippets.json"
+      },
+      {
+        "language": "handlebars",
+        "path": "./snippets.json"
+      },
+      {
+        "language": "latte",
+        "path": "./snippets.json"
+      },
+      {
+        "language": "php",
+        "path": "./snippets.json"
+      },
+      {
+        "language": "plaintext",
+        "path": "./snippets.json"
+      },
+      {
+        "language": "razor",
+        "path": "./snippets.json"
+      },
+      {
+        "language": "tpl",
+        "path": "./snippets.json"
+      },
+      {
+        "language": "typescript",
+        "path": "./snippets.json"
+      },
+      {
+        "language": "typescriptreact",
+        "path": "./snippets.json"
+      },
+      {
+        "language": "javascriptreact",
+        "path": "./snippets.json"
+      },
+      {
+        "language": "javascript",
+        "path": "./snippets.json"
+      },
+      {
+        "language": "twig",
+        "path": "./snippets.json"
+      },
+      {
+        "language": "vue",
+        "path": "./snippets.json"
+      },
+      {
+        "language": "vue-html",
+        "path": "./snippets.json"
+      },
+      {
+        "language": "django-html",
+        "path": "./snippets.json"
+      },
+      {
+        "language": "erb",
+        "path": "./snippets.json"
+      },
+      {
+        "language": "HTML (Eex)",
+        "path": "./snippets.json"
+      },
+      {
+        "language": "volt",
+        "path": "./snippets.json"
+      }
+    ]
+  }
+}

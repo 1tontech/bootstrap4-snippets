@@ -1,0 +1,50 @@
+<idea-plugin version="2" url="https://github.com/1tontech/bootstrap4-snippets">
+    <id>in.thekalinga.snippet.intellij</id>
+    <name>Bootstrap 4, Font awesome 4, Font Awesome 5 Free &amp; Pro live templates/snippets</name>
+    <version>@@@VERSION@@@</version>
+    <vendor url="http://github.com/1tontech">1Ton Technologies</vendor>
+
+    <description><![CDATA[
+      <h2>Bootstrap 4, Font awesome 4, Font Awesome 5 Free & Pro live templates/snippets</h2>
+      <img width="1200" height="860" src="https://raw.githubusercontent.com/1tontech/bootstrap4-snippets/tree/intellij-@@@VERSION@@@/help.gif"/>
+      <br />
+      <p>Documentation can be found <a href="https://github.com/1tontech/bootstrap4-snippets/tree/intellij-@@@VERSION@@@">here</a></p>
+      <br />
+      <p>Release notes can be found <a href="https://github.com/1tontech/bootstrap4-snippets/tree/intellij-@@@VERSION@@@/CHANGELOG.md">here</a></p>
+      <br />
+      <p>Have a problem, raise an issue <a href="https://github.com/1tontech/bootstrap4-snippets/issues">here</a></p>
+      <br />
+      <p>Follow me on Twitter: <a href="https://twitter.com/1tontech"><b>@1tontech</b></a></p>
+    ]]></description>
+
+    <change-notes><![CDATA[
+        @@@CHANGELOG@@@
+    ]]></change-notes>
+
+    <!-- please see http://confluence.jetbrains.com/display/IDEADEV/Build+Number+Ranges for description -->
+    <idea-version since-build="107.105"/>
+
+    <!-- please see http://confluence.jetbrains.com/display/IDEADEV/Plugin+Compatibility+with+IntelliJ+Platform+Products
+         on how to target different products -->
+    <depends>com.intellij.modules.lang</depends>
+    <depends>com.intellij.modules.platform</depends>
+
+    <extensions defaultExtensionNs="com.intellij">
+        <!-- Add your extensions here -->
+        <defaultLiveTemplatesProvider
+                implementation="in.oneton.snippet.bootstrap4.TemplatesProvider"/>
+    </extensions>
+
+    <application-components>
+        <!-- Add your application components here -->
+    </application-components>
+
+    <project-components>
+        <!-- Add your project components here -->
+    </project-components>
+
+    <actions>
+        <!-- Add your actions here -->
+    </actions>
+
+</idea-plugin>

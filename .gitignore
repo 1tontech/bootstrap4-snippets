@@ -1,0 +1,15 @@
+intellij/src/main/resources
+vscode/package.json
+vscode/snippets.json
+*.vsix
+build/
+.gradle/
+.idea/
+out/
+target/
+.project
+.classpath
+/bootstrap.xml
+/font-awesome.xml
+*.*~
+*.log

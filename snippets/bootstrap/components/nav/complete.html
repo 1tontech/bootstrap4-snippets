@@ -1,0 +1,37 @@
+<!-- Nav tabs -->
+<ul class="nav nav-${2:tabs|pills}" id="${1:navId}">
+	<li class="nav-item">
+		<a href="#${4:tab1Id}" class="nav-link active">${3:Active}</a>
+	</li>
+	<li class="nav-item dropdown">
+		<a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">${5:Dropdown}</a>
+		<div class="dropdown-menu">
+			<a class="dropdown-item" href="#${7:tab2Id}">${6:Action}</a>
+			<a class="dropdown-item" href="#${9:tab3Id}">${8:Another action}</a>
+			<div class="dropdown-divider"></div>
+			<a class="dropdown-item" href="#${11:tab4Id}">${10:Action}</a>
+		</div>
+	</li>
+	<li class="nav-item">
+		<a href="#${13:tab5Id}" class="nav-link">${12:Another link}</a>
+	</li>
+	<li class="nav-item">
+		<a href="#" class="nav-link disabled">${14:Disabled}</a>
+	</li>
+</ul>
+
+<!-- Tab panes -->
+<div class="tab-content">
+	<div class="tab-pane fade show active" id="${4:tab1Id}" role="tabpanel">$15</div>
+	<div class="tab-pane fade" id="${7:tab2Id}" role="tabpanel">$16</div>
+	<div class="tab-pane fade" id="${9:tab3Id}" role="tabpanel">$17</div>
+	<div class="tab-pane fade" id="${11:tab4Id}" role="tabpanel">$18</div>
+	<div class="tab-pane fade" id="${13:tab5Id}" role="tabpanel">$19</div>
+</div>
+
+<script>
+	$('#${1:navId} a').click(e => {
+		e.preventDefault();
+		$(this).tab('show');
+	});
+</script>

@@ -1,0 +1,17 @@
+src/**/*
+screencasts/**/*
+gradle/**/*
+build/**/*
+.idea/**/*
+.gradle/**/*
+.gitignore
+*.xml
+*.vsix
+bootstrap-snippets.json
+font-awesome-snippets.json
+*.iml
+*.gradle
+gradle*
+*.*~
+*.gif
+*.log

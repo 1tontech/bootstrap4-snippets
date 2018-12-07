@@ -1,0 +1,8 @@
+- Bump version in `.version` file
+- `./gradlew :vscode:clean :vscode:regenerate && cd vscode && vsce package && cd ..` will regenerate `snippets.json`, `README.md` & `package.json`
+- Update `CHANGELOG.md` with release notes
+- `git add .` will stage all local changes for commit
+- `git commit -m <Changes>` will commit to local git repo
+- `git tag -a vscode-<version> -m "<Release notes>"` will create tag with the latest version
+- `git push && git push origin vscode-<version>` will push both the code & the tags to github
+- `./gradlew :vscode:clean :vscode:regenerate && cd vscode && vsce publish && cd ..` will publish plugin to visual studio marketplace

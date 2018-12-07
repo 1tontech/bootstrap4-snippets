@@ -1,0 +1,36 @@
+# Downloaded from https://raw.githubusercontent.com/FortAwesome/Font-Awesome/v4.7.0/src/icons.yml
+icons:
+  - name:       Glass
+    id:         glass
+    unicode:    f000
+    created:    1.0
+    filter:
+      - martini
+      - drink
+      - bar
+      - alcohol
+      - liquor
+    categories:
+      - Web Application Icons
+
+  - name:       Search
+    id:         search
+    unicode:    f002
+    created:    1.0
+    filter:
+      - magnify
+      - zoom
+      - enlarge
+      - bigger
+    categories:
+      - Web Application Icons
+
+  - name:       Music
+    id:         music
+    unicode:    f001
+    created:    1.0
+    filter:
+      - note
+      - sound
+    categories:
+      - Web Application Icons

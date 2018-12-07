@@ -1,0 +1,5 @@
+rootProject.name = 'bootstrap4-snippets'
+include 'snippets'
+include 'common'
+include 'intellij'
+include 'vscode'

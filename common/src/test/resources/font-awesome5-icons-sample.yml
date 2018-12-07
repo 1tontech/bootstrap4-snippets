@@ -1,0 +1,34 @@
+# Can be downloaded from https://raw.githubusercontent.com/FortAwesome/Font-Awesome/master/advanced-options/metadata/icons.yml
+500px:
+  changes:
+    - '4.4'
+    - 5.0.0
+  label: 500px
+  search:
+    terms: []
+  styles:
+    - brands
+  unicode: f26e
+accusoft:
+  changes:
+    - 5.0.0
+  label: Accusoft
+  search:
+    terms: []
+  styles:
+    - brands
+  unicode: f369
+accessible-icon:
+  changes:
+    - 5.0.0
+  label: Accessible Icon
+  search:
+    terms:
+      - accessibility
+      - handicap
+      - person
+      - wheelchair
+      - wheelchair-alt
+  styles:
+    - brands
+  unicode: f368
