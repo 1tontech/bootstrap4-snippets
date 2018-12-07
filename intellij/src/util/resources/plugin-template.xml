@@ -6,11 +6,11 @@
 
     <description><![CDATA[
       <h2>Bootstrap 4, Font awesome 4, Font Awesome 5 Free & Pro live templates/snippets</h2>
-      <img width="1200" height="860" src="https://raw.githubusercontent.com/1tontech/bootstrap4-snippets/tree/intellij-@@@VERSION@@@/help.gif"/>
+      <img width="1200" height="860" src="https://raw.githubusercontent.com/1tontech/bootstrap4-snippets/intellij-@@@VERSION@@@/intellij/help.gif"/>
       <br />
-      <p>Documentation can be found <a href="https://github.com/1tontech/bootstrap4-snippets/tree/intellij-@@@VERSION@@@">here</a></p>
+      <p>Documentation can be found <a href="https://github.com/1tontech/bootstrap4-snippets/tree/intellij-@@@VERSION@@@/intellij">here</a></p>
       <br />
-      <p>Release notes can be found <a href="https://github.com/1tontech/bootstrap4-snippets/tree/intellij-@@@VERSION@@@/CHANGELOG.md">here</a></p>
+      <p>Release notes can be found <a href="https://github.com/1tontech/bootstrap4-snippets/tree/intellij-@@@VERSION@@@/intellij/CHANGELOG.md">here</a></p>
       <br />
       <p>Have a problem, raise an issue <a href="https://github.com/1tontech/bootstrap4-snippets/issues">here</a></p>
       <br />

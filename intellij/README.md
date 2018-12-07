@@ -8,7 +8,7 @@ This plugin is compatible with the following JetBrains products:
 - PyCharm
 - RubyMine
 
-![Plugin in action](https://github.com/1tontech/bootstrap4-snippets/raw/intellij-6.0.0/intellij/help.gif)
+![Plugin in action](https://github.com/1tontech/bootstrap4-snippets/raw/intellij-6.0.1/intellij/help.gif)
 
 The detailed list of supported template triggers are listed [below](#documentation)
 
