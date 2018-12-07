@@ -17,7 +17,7 @@ buildscript {
 apply plugin: 'org.jetbrains.intellij'
 
 // Will be replaced by build before publish. Leave it as is
-version '6.0.1'
+version '6.0.2'
 
 apply plugin: 'groovy'
 apply plugin: 'java'
@@ -51,7 +51,6 @@ dependencies {
     utilCompile group: 'commons-io', name: 'commons-io', version: '2.5'
     utilCompile group: 'com.fasterxml.jackson.dataformat', name: 'jackson-dataformat-xml', version: '2.8.4'
     utilCompile group: 'com.fasterxml.jackson.core', name: 'jackson-databind', version: '2.8.4'
-    utilCompile group: 'org.springframework', name: 'spring-core', version: '4.3.4.RELEASE'
     utilCompile group: 'com.vladsch.flexmark', name: 'flexmark', version: '0.28.12'
 }
 

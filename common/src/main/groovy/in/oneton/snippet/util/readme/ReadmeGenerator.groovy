@@ -67,18 +67,26 @@ class ReadmeGenerator {
             String parentDirName = snippetResource.parent.substring(snippetResource.parent.lastIndexOf('/') + 1)
             String sectionName = parentDirName.replaceAll(/-/, ' ').capitalize()
 
-            def snippetHelpBuilder = SnippetHelp.builder()
+            if (fileBaseName != '$') {
+                def snippetHelpBuilder = SnippetHelp.builder()
                     .description(nameToDescription(sectionName, fileBaseName))
 
-            def triggerNameDetail = triggerName(prefix, parentDirName, fileBaseName, skipParentDirNameFromTrigger)
-            snippetHelpBuilder.trigger("${triggerNameDetail.computedPrefix}**${(triggerNameDetail.name - triggerNameDetail.computedPrefix).replaceAll('\\*', '\\\\\\\\*')}**")
+                def triggerNameDetail = triggerName(prefix, parentDirName, fileBaseName, skipParentDirNameFromTrigger)
+                snippetHelpBuilder.trigger("${triggerNameDetail.computedPrefix}**${(triggerNameDetail.name - triggerNameDetail.computedPrefix).replaceAll('\\*', '\\\\\\\\*')}**")
 
-            List<SnippetHelp> helps = folderToSnippets.get(sectionName)
-            if (!helps) {
-                helps = new ArrayList<>()
+                List<SnippetHelp> helps = folderToSnippets.get(sectionName)
+                if (!helps) {
+                    helps = new ArrayList<>()
+                }
+                helps.add(snippetHelpBuilder.build())
+                folderToSnippets.put(sectionName, helps)
+            } else {
+                def snippetHelp = SnippetHelp.builder()
+                    .trigger("${prefix}-**\$**")
+                    .description('Bootstrap master template')
+                    .build()
+                folderToSnippets.put('Bootstrap master template', Arrays.asList(snippetHelp))
             }
-            helps.add(snippetHelpBuilder.build())
-            folderToSnippets.put(sectionName, helps)
         }
 
         StringBuilder builder = new StringBuilder()

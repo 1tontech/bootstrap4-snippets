@@ -10,13 +10,6 @@ repositories {
     jcenter()
 }
 
-// todo Remove this
-
-//
-//test {
-//    useJUnitPlatform()
-//}
-
 dependencies {
     // todo We need move everything to utilCompile instead of main
     

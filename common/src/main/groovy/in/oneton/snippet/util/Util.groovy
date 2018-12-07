@@ -159,36 +159,6 @@ final class Util {
         } else {
             description = "${fileParent}-${fileBaseName}".trim()
         }
-
-        if (description ==~ /.*\+.*/) {
-            description = description.replaceAll(/\+/, ' with responsive variations')
-        }
-        if (description ==~ /^.*:\*\*$/) {
-            description = description.replaceAll(/:\*\*/, ' + more variations')
-        }
-        if (description ==~ /^.*:\?$/) {
-            description = description.replaceAll(/:\?/, ' help')
-        }
-        if (description ==~ /^.*-\*.*$/) {
-            description = description.replaceAll(/-\*/, ' *forEach flavor')
-        }
-        if (description ==~ /^.*@.*$/) {
-            description = description.replaceAll(/@/, 'attribute directive ')
-        }
-        if (description ==~ /^.*_([^\W]+?)?\b.*$/) {
-            description = description.replaceAll(/_([^\W]+?)?\b/, /$1 snippet/)
-        }
-        if (description ==~ /^.*:([a-z ]+)$/) {
-            description = description.replaceAll(/:([a-z ]+)$/, / + $1 variation/)
-        }
-        if (description ==~ /.*-a\b.*/) {
-            description = description.replaceAll(/-a\b/, ' with link')
-        }
-        if (fileBaseName ==~ /^\$.*/) {
-            description = 'Reactive form variation of ' + description.replaceAll(/\$/, '')
-        } else if (description ==~ /.*\$.*/) {
-            description = description.replaceAll(/\$/, ' with observable variation')
-        }
         escapeXml11(description.replace(/-/, ' ')).trim()
     }
 }

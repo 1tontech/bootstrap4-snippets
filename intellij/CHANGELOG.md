@@ -1,3 +1,8 @@
+## Since 6.0.2 (7 Dec 2018):
+
+  - Fixed a minor documentation issue
+  - Removed unnecessary spring dependency
+
 ## Since 6.0.1 (7 Dec 2018):
 
   - Fixed a minor issue w.r.t help gif

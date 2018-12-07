@@ -3,7 +3,7 @@ Bootstrap 4, Font awesome 4, Font Awesome 5 Free & Pro snippets for Visual studi
 
 Visual studio code plugin containing Bootstrap 4, Font awesome 4 & Font Awesome 5 Free & Pro snippets. This plugin works in both in the stable & the insiders build
 
-![Plugin in action](https://github.com/1tontech/bootstrap4-snippets/raw/vscode-6.0.0/vscode/help.gif)
+![Plugin in action](https://github.com/1tontech/bootstrap4-snippets/raw/vscode-6.0.1/vscode/help.gif)
 
 The detailed list of supported template triggers are listed [below](#documentation)
 
@@ -57,11 +57,11 @@ Here are available live templates
 
 ### Bootstrap 4 snippets
 
-#### Bootstrap
+#### Bootstrap master template
 
 Trigger | Description
 --- | ---
-b4-**bootstrap$** | Reactive form variation of Bootstrap
+b4-**$** | Bootstrap master template
 
 #### Alert
 
@@ -104,11 +104,11 @@ b4-**breadcrumb-list** | Breadcrumb list
 
 Trigger | Description
 --- | ---
-b4-**button-a** | Button with link
+b4-**button-a** | Button a
 b4-**button-block** | Button block
 b4-**button-checkbox** | Button checkbox
 b4-**button-default** | Button default
-b4-**button-disabled-a** | Button disabled with link
+b4-**button-disabled-a** | Button disabled a
 b4-**button-input** | Button input
 b4-**button-outline** | Button outline
 b4-**button-radio** | Button radio
@@ -227,7 +227,7 @@ b4-**jumbotron-fluid** | Jumbotron fluid
 
 Trigger | Description
 --- | ---
-b4-**list-a** | List with link
+b4-**list-a** | List a
 b4-**list-badge** | List badge
 b4-**list-button** | List button
 b4-**list-colors** | List colors
@@ -247,9 +247,9 @@ b4-**modal-sizes** | Modal sizes
 
 Trigger | Description
 --- | ---
-b4-**nav-a** | Nav with link
+b4-**nav-a** | Nav a
 b4-**nav-complete** | Nav complete
-b4-**nav-tabs-pills-a-variation** | Nav tabs pills with link variation
+b4-**nav-tabs-pills-a-variation** | Nav tabs pills a variation
 b4-**nav-tabs-pills-dropdown** | Nav tabs pills dropdown
 b4-**nav-tabs-pills-ul-variation** | Nav tabs pills ul variation
 b4-**nav-ul** | Nav ul
@@ -261,7 +261,7 @@ Trigger | Description
 b4-**navbar-background-color** | Navbar background color
 b4-**navbar-background** | Navbar background
 b4-**navbar-default** | Navbar default
-b4-**navbar-minimal-a** | Navbar minimal with link
+b4-**navbar-minimal-a** | Navbar minimal a
 b4-**navbar-minimal-ul** | Navbar minimal ul
 b4-**navbar-non-responsive** | Navbar non responsive
 b4-**navbar-placement** | Navbar placement
