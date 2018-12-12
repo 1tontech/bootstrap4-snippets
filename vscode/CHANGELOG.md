@@ -1,3 +1,7 @@
+## Since 6.0.2 (12 Dec 2018):
+
+  - Properly closed `h5` brace of modal snippets
+
 ## Since 6.0.1 (7 Dec 2018):
 
   - Fixed a minor documentation issue
