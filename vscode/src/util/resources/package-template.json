@@ -102,6 +102,10 @@
       {
         "language": "volt",
         "path": "./snippets.json"
+      },
+      {
+        "language": "nunjucks",
+        "path": "./snippets.json"
       }
     ]
   }
