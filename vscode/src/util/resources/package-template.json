@@ -92,6 +92,10 @@
         "path": "./snippets.json"
       },
       {
+        "language": "jinja-html",
+        "path": "./snippets.json"
+      },
+      {
         "language": "erb",
         "path": "./snippets.json"
       },
