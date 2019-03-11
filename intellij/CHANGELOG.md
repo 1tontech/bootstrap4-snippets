@@ -1,3 +1,8 @@
+## Since 6.1.0 (10 Mar 2019):
+
+  - Added support for `jinja-html`. Thanks to @mweires
+  - Migrated to bootstrap 4.3.1. Thanks to @nickylogan
+
 ## Since 6.0.3 (12 Dec 2018):
 
   - Properly closed `h5` brace of modal snippets

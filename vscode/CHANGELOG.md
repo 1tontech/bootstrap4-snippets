@@ -1,3 +1,8 @@
+## Since 6.1.0 (10 Mar 2019):
+
+  - Added support for `jinja-html`. Thanks to @mweires
+  - Migrated to bootstrap 4.3.1. Thanks to @nickylogan
+
 ## Since 6.0.2 (12 Dec 2018):
 
   - Added support for [Nunjucks](https://mozilla.github.io/nunjucks/)

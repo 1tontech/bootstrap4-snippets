@@ -72,6 +72,12 @@ Here are available live templates
 ### Font Awesome 5 Pro icon snippets
 @@@GENERATED_FONT_AWESOME5_PRO_ICON_SNIPPETS@@@
 
+## About Me
+
+You can find my personnel blog at [https://thekalinga.in](https://thekalinga.in)
+
+You can connect me with at linkedin @ [https://linkedin.com/in/thekalinga/](https://linkedin.com/in/thekalinga/)
+
 ## License
 
 Bootstrap 4, Font Awesome 4, Font Awesome 5 Free & Pro - IntelliJ plugin is open-sourced software licensed under the [MIT license](http://opensource.org/licenses/MIT).
