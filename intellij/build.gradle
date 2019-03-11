@@ -17,7 +17,7 @@ buildscript {
 apply plugin: 'org.jetbrains.intellij'
 
 // Will be replaced by build before publish. Leave it as is
-version '6.0.3'
+version '6.1.0'
 
 apply plugin: 'groovy'
 apply plugin: 'java'

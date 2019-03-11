@@ -3,7 +3,7 @@ Bootstrap 4, Font awesome 4, Font Awesome 5 Free & Pro snippets for Visual studi
 
 Visual studio code plugin containing Bootstrap 4, Font awesome 4 & Font Awesome 5 Free & Pro snippets. This plugin works in both in the stable & the insiders build
 
-![Plugin in action](https://github.com/1tontech/bootstrap4-snippets/raw/vscode-6.0.3/vscode/help.gif)
+![Plugin in action](https://github.com/1tontech/bootstrap4-snippets/raw/vscode-6.1.0/vscode/help.gif)
 
 The detailed list of supported template triggers are listed [below](#documentation)
 
@@ -4137,6 +4137,12 @@ fa5p-**zhihu** | Zhihu
 @fa5p-**stack-2x** | Larger sized stacked icon
 @fa5p-**inverse** | Alternative colored icon
 
+
+## About Me
+
+You can find my personnel blog at [https://thekalinga.in](https://thekalinga.in)
+
+You can connect me with at linkedin @ [https://linkedin.com/in/thekalinga/](https://linkedin.com/in/thekalinga/)
 
 ## License
 
