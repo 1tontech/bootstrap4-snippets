@@ -48,10 +48,6 @@
         "path": "./snippets.json"
       },
       {
-        "language": "plaintext",
-        "path": "./snippets.json"
-      },
-      {
         "language": "razor",
         "path": "./snippets.json"
       },
