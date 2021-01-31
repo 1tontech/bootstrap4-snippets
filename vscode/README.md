@@ -3,7 +3,7 @@ Bootstrap 4, Font awesome 4, Font Awesome 5 Free & Pro snippets for Visual studi
 
 Visual studio code plugin containing Bootstrap 4, Font awesome 4 & Font Awesome 5 Free & Pro snippets. This plugin works in both in the stable & the insiders build
 
-![Plugin in action](https://github.com/1tontech/bootstrap4-snippets/raw/vscode-6.1.0/vscode/help.gif)
+![Plugin in action](https://github.com/1tontech/bootstrap4-snippets/raw/vscode-6.1.2-shitty/vscode/help.gif)
 
 The detailed list of supported template triggers are listed [below](#documentation)
 
@@ -184,6 +184,7 @@ b4-**form-help-text-inline** | Form help text inline
 b4-**form-help-text** | Form help text
 b4-**form-hidden** | Form hidden
 b4-**form-inline** | Form inline
+b4-**form-input-range** | Form input range
 b4-**form-input-sizing** | Form input sizing
 b4-**form-input-text** | Form input text
 b4-**form-input** | Form input
