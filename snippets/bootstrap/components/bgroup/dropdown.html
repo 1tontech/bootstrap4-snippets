@@ -1,14 +1,14 @@
-<div class="btn-group" role="group" aria-label="$1">
-	<button type="button" class="btn btn-secondary">$2</button>
-	<button type="button" class="btn btn-secondary">$3</button>
+<div class="btn-group" role="group" aria-label="${1:menu button group}">
+	<button type="button" class="btn {2:btn-primary|btn-secondary|btn-success|btn-danger|btn-warning|btn-info|btn-light|btn-dark|btn-link}">${3:Button 1}</button>
+	<button type="button" class="btn {2:btn-primary|btn-secondary|btn-success|btn-danger|btn-warning|btn-info|btn-light|btn-dark|btn-link}">${4:Button 2}</button>
 	<div class="btn-group" role="group">
-		<button id="${5:dropdownId}" type="button" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true"
+		<button id="${5:dropdownId}" type="button" class="btn {2:btn-primary|btn-secondary|btn-success|btn-danger|btn-warning|btn-info|btn-light|btn-dark|btn-link} dropdown-toggle" data-toggle="dropdown" aria-haspopup="true"
 				aria-expanded="false">
-			$4
+			${6:Dropdown Menu}
 		</button>
 		<div class="dropdown-menu" aria-labelledby="${5:dropdownId}">
-			<a class="dropdown-item" href="${7:#}">$6</a>
-			<a class="dropdown-item" href="${9:#}">$8</a>
+			<a class="dropdown-item" href="${7:#}">${8:Dropdown Button1}</a>
+			<a class="dropdown-item" href="${9:#}">${10:Dropdown Button2}</a>
 		</div>
 	</div>
 </div>
