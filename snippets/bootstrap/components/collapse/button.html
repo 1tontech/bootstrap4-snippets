@@ -1,9 +1,9 @@
 <p>
-	<button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#${2:contentId}" aria-expanded="false"
+	<button class="btn ${3:btn-primary|btn-secondary|btn-success|btn-danger|btn-warning|btn-info|btn-light|btn-dark|btn-link}" type="button" data-toggle="collapse" data-target="#${2:contentId}" aria-expanded="false"
 			aria-controls="${2:contentId}">
 		${1:Show}
 	</button>
 </p>
 <div class="collapse" id="${2:contentId}">
-	$3
+	${4:Content}
 </div>

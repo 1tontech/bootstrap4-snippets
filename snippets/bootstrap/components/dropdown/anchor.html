@@ -1,10 +1,10 @@
 <div class="dropdown open">
-	<a class="btn btn-secondary dropdown-toggle" type="button" id="${2:triggerId}" data-toggle="dropdown" aria-haspopup="true"
+	<a class="btn ${1:btn-primary|btn-secondary|btn-success|btn-danger|btn-warning|btn-info|btn-light|btn-dark|btn-link} dropdown-toggle" type="button" id="${2:triggerId}" data-toggle="dropdown" aria-haspopup="true"
 			aria-expanded="false">
-				${1:Dropdown}
-			</button>
+				${3:Dropdown}
+	</a>
 	<div class="dropdown-menu" aria-labelledby="${2:triggerId}">
-		<a class="dropdown-item" href="${4:#}">${3:Action}</a>
-		<a class="dropdown-item disabled" href="${6:#}">${5:Disabled action}</a>
+		<a class="dropdown-item" href="${4:#}">${5:Action}</a>
+		<a class="dropdown-item disabled" href="${6:#}">${7:Disabled action}</a>
 	</div>
 </div>
