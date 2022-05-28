@@ -1,3 +1,12 @@
-<button type="button" class="btn btn-secondary" data-toggle="tooltip" data-placement="${2:top|right|bottom|left}" title="$1">
-	${3:Button name}
+<button type="button"
+	class="btn ${3:btn-primary|btn-secondary|btn-success|btn-danger|btn-warning|btn-info|btn-light|btn-dark|btn-link}"
+	data-toggle="tooltip" data-placement="${2:top|right|bottom|left}" title="${1:Tooltip Example}">
+	${4:Button name}
 </button>
+
+
+<script>
+	$(function () {
+		$('[data-toggle="tooltip"]').tooltip()
+	})
+</script>

@@ -1,8 +1,8 @@
 <p>
-	<a class="btn btn-primary" data-toggle="collapse" href="#${2:contentId}" aria-expanded="false" aria-controls="${2:contentId}">
+	<a class="btn ${3:btn-primary|btn-secondary|btn-success|btn-danger|btn-warning|btn-info|btn-light|btn-dark|btn-link}" data-toggle="collapse" href="#${2:contentId}" aria-expanded="false" aria-controls="${2:contentId}">
 		${1:Show}
 	</a>
 </p>
 <div class="collapse" id="${2:contentId}">
-	$3
+	${4:Content}
 </div>

@@ -1,22 +1,25 @@
+<!-- Place in the <head> -->
 <style>
 	${1:div|body} {
 		position: relative;
 	}
 </style>
 
-<${1:div|body} data-spy="scroll" data-target="#${2:navId}">
+<${1:div|body} data-spy="scroll" data-target="#${2:navId}" data-offset="0">
 	$4
 	<div id="${2:navId}">
-		<ul class="nav nav-tabs" role="tablist">
-			$3
+		<ul class="nav nav-tabs" role="tablist" >
+			b4-li$3
 		</ul>
 	</div>
 	$5
 </${1:div|body}>
 
 
+
+<!-- Place to the bottom -->
 <script>
-	$('$1{1:div|body}').scrollspy({
+	$('${1:div|body}').scrollspy({
 		target: '#${2:navId}'
 	});
 </script>
